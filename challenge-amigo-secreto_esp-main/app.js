@@ -28,7 +28,7 @@ function sortearAmigo(){
   
   listNode = document.getElementById("resultado" );
   liNode = document.createElement("LI");
-  txtNode = document.createTextNode(sorteo);
+  txtNode = document.createTextNode(`el amigo secreto sorteado es: ${sorteo}`);
 
   liNode.appendChild(txtNode);
   listNode.appendChild(liNode);
